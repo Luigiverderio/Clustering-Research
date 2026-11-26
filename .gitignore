@@ -1,0 +1,23 @@
+# Dados e artefatos locais: manter apenas a estrutura no Git.
+/data/**/*
+!/data/**/
+!/data/**/.gitkeep
+/models/*
+!/models/.gitkeep
+
+# Ambiente e arquivos temporarios.
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
